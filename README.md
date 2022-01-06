@@ -32,7 +32,7 @@
 
 ### フレームワーク等
 
-  FastAPI | Spring Boot | Laravel | CakePHP | Nuxt.js | Vue.js | WordPress
+ FastAPI | Spring Boot | Laravel | CakePHP | Nuxt.js | Vue.js | WordPress
 
 ### RDB/NoSQL
 
@@ -42,7 +42,7 @@ MySQL | PostgreSQL | CloudFirestore
 
 #### AWS
 
-Amplify | VPC | S3 | Cloud Front | Lambda | ECS | Fargate | IAM | RDS(MySQL|PostgreSQL) | Aurora | SNS | SES | Cloud Formation | Cloud Watch | CloudTrail | SecretsManager
+Amplify | VPC | S3 | Cloud Front | Lambda | ECS | Fargate | IAM | RDS(MySQL|PostgreSQL) | Aurora | SNS | SES | Cloud Formation | Cloud Watch | CloudTrail | SecretsManager | CodeDeploy | CodePipeline | CodeArtifact
 
 
 #### GCP 
