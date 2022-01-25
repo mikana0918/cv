@@ -42,7 +42,7 @@ MySQL | PostgreSQL | CloudFirestore
 
 #### AWS
 
-Amplify | VPC | S3 | Cloud Front | Lambda | ECS | Fargate | IAM | RDS(MySQL|PostgreSQL) | Aurora | SNS | SES | Cloud Formation | Cloud Watch | CloudTrail | SecretsManager | CodeDeploy | CodePipeline | CodeArtifact
+Amplify | VPC | S3 | Cloud Front | Lambda | ECS | Fargate | ECR |  IAM | RDS(MySQL|PostgreSQL) | Aurora | SNS | SES | CloudFormation | CloudWatch | CloudTrail | SecretsManager | CodeDeploy | CodePipeline | CodeBuild | EventBridge | SSM | 
 
 
 #### GCP 
@@ -55,7 +55,7 @@ GitHub | GitHub Actions | CircleCI | DataDog | Sentry | Shopify
 
 ### その他
 
-AWS CDK | Terraform | Docker | nginx | unicorn | Apache | Gulp | Webpack | SASS | Vuetify | ElementUI | Puppeteer | Playwright 
+AWS CDK | Github Actions | Terraform | Docker | nginx | unicorn | Apache | Gulp | Webpack | SASS | Vuetify | ElementUI | Puppeteer | Playwright 
 
 ## バリューを発揮しやすい業務
 - フロントエンド設計
