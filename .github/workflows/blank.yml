@@ -3,7 +3,7 @@ on:
   push:
     tags: 'v*'
 env: 
-  ASSET_NAME: cv__楠原彰悟.pdf
+  ASSET_NAME: cv__Shogo_Kusuhara.pdf
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,6 +17,9 @@ jobs:
       id: tag_version
       run: |
         echo ::set-output name=TAG_VERSION::${GITHUB_REF#refs/tags/}
+    - name: Get font
+      run: | 
+        sudo apt install fonts-noto
     - name: Convert Markdown to PDF
       run: |
         yarn add md-to-pdf
