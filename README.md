@@ -28,15 +28,15 @@
 
 ### 言語
 
- Kotlin | Python | PHP | JavaScript | TypeScript
+ PHP | JavaScript | TypeScript | golang | bash |  Kotlin | Python | 
 
-### フレームワーク等
+### フレームワーク等(ver.)
 
- FastAPI | Spring Boot | Laravel | CakePHP | Nuxt.js | Vue.js | WordPress
+ Laravel |  FastAPI | Spring Boot | CakePHP(3) | Nuxt.js | Vue.js(~2.7) | React.js(17.x) | WordPress |
 
 ### RDB/NoSQL
 
-MySQL | PostgreSQL | CloudFirestore
+MySQL | PostgreSQL | CloudFirestore | MongoDB 
 
 ### クラウド
 
