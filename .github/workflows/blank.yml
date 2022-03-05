@@ -1,0 +1,49 @@
+name: Convert Markdown to PDF
+on:
+  push:
+    tags: 'v*'
+env: 
+  ASSET_NAME: cv__Shogo_Kusuhara.pdf
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js 14.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14.x
+    - name: Get the git tag version
+      id: tag_version
+      run: |
+        echo ::set-output name=TAG_VERSION::${GITHUB_REF#refs/tags/}
+    - name: Get font
+      run: | 
+        sudo apt install fonts-noto
+    - name: Convert Markdown to PDF
+      run: |
+        yarn add md-to-pdf
+        npx md-to-pdf README.md
+    - name: Rename generated PDF
+      run: |
+        mv README.pdf ${{ env.ASSET_NAME }}
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1.0.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{steps.tag_version.outputs.TAG_VERSION}}
+        release_name: ${{steps.tag_version.outputs.TAG_VERSION}}
+        draft: false
+        prerelease: false
+    - name: Upload Release Asset
+      id: upload-release-asset
+      uses: actions/upload-release-asset@v1.0.1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./${{ env.ASSET_NAME }}
+        asset_name: ${{ env.ASSET_NAME }}
+        asset_content_type: application/pdf
