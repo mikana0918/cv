@@ -1,7 +1,9 @@
 name: Convert Markdown to PDF
-# releases/hogehugaにpushされた時だけ行う
 on:
   push:
+    branches:
+      - 'main'
+  pull_request:
     branches:
       - 'main'
 jobs:
