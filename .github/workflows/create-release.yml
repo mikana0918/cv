@@ -48,7 +48,7 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./${{ env.ASSET_NAME_JA }}
-        ASSET_NAME_JA: ${{ env.ASSET_NAME_JA }}
+        asset_name: ${{ env.ASSET_NAME_JA }}
         asset_content_type: application/pdf
     - name: Upload Release Asset
       id: upload-release-asset-en
@@ -58,5 +58,5 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: ./${{ env.ASSET_NAME_EN }}
-        ASSET_NAME_JA: ${{ env.ASSET_NAME_EN }}
+        asset_name: ${{ env.ASSET_NAME_EN }}
         asset_content_type: application/pdf
