@@ -24,7 +24,9 @@ jobs:
     - name: Convert Markdown to PDF
       run: |
         yarn add md-to-pdf
+        export LANG=ja_JP.UTF-8
         npx md-to-pdf README.md
+        export LANG=en_US.UTF-8
         npx md-to-pdf README.en.md
     - name: Rename generated PDF
       run: |
