@@ -1,9 +1,10 @@
-name: Convert Markdown to PDF
+name: Convert Markdown to PDF and Create release
 on:
   push:
     tags: 'v*'
 env: 
-  ASSET_NAME: cv__Shogo_Kusuhara.pdf
+  ASSET_NAME_JA: cv__Shogo_Kusuhara--JA.pdf
+  ASSET_NAME_EN: cv__Shogo_Kusuhara--EN.pdf
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,9 +25,11 @@ jobs:
       run: |
         yarn add md-to-pdf
         npx md-to-pdf README.md
+        npx md-to-pdf README.en.md
     - name: Rename generated PDF
       run: |
-        mv README.pdf ${{ env.ASSET_NAME }}
+        cp README.pdf ${{ env.ASSET_NAME_JA }}
+        cp README.en.md ${{ env.ASSET_NAME_EN }}
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1.0.0
@@ -44,6 +47,16 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./${{ env.ASSET_NAME }}
-        asset_name: ${{ env.ASSET_NAME }}
+        asset_path: ./${{ env.ASSET_NAME_JA }}
+        ASSET_NAME_JA: ${{ env.ASSET_NAME_JA }}
+        asset_content_type: application/pdf
+    - name: Upload Release Asset
+      id: upload-release-asset
+      uses: actions/upload-release-asset@v1.0.1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./${{ env.ASSET_NAME_EN }}
+        ASSET_NAME_JA: ${{ env.ASSET_NAME_EN }}
         asset_content_type: application/pdf
