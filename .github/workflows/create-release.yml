@@ -1,4 +1,4 @@
-name: Convert Markdown to PDF Japanese
+name: Convert Markdown to PDF and Create release
 on:
   push:
     tags: 'v*'
