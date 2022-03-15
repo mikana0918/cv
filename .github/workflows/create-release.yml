@@ -41,7 +41,7 @@ jobs:
         draft: false
         prerelease: false
     - name: Upload Release Asset
-      id: upload-release-asset
+      id: upload-release-asset-ja
       uses: actions/upload-release-asset@v1.0.1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -51,7 +51,7 @@ jobs:
         ASSET_NAME_JA: ${{ env.ASSET_NAME_JA }}
         asset_content_type: application/pdf
     - name: Upload Release Asset
-      id: upload-release-asset
+      id: upload-release-asset-en
       uses: actions/upload-release-asset@v1.0.1
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
