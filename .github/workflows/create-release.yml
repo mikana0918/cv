@@ -31,7 +31,7 @@ jobs:
     - name: Rename generated PDF
       run: |
         cp README.pdf ${{ env.ASSET_NAME_JA }}
-        cp README.en.md ${{ env.ASSET_NAME_EN }}
+        cp README.en.pdf ${{ env.ASSET_NAME_EN }}
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1.0.0
