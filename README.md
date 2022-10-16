@@ -77,7 +77,7 @@ AWS CDK | Github Actions | Terraform | Docker | nginx | unicorn | Apache | Gulp 
 
 【プロジェクト概要】営業支援およびMA系ツールdigimaの開発
 
-【担当業務】 フロントエンド開発、バックエンド開発
+【担当業務】 フロントエンド開発、バックエンド開発、一部インフラ開発
 - React.js + TypeScriptによるフロントエンド開発
 - golangマイクロサービス + Laravel proxy APIバックエンド開発
 - SMS送信機能のフルリプレイス
@@ -85,6 +85,9 @@ AWS CDK | Github Actions | Terraform | Docker | nginx | unicorn | Apache | Gulp 
 - Elasticsearchを使った全文検索マイクロサービスの新規開発
 - メールサーバーからSMTP/IMAPプロトコルを利用してメール送信受信を行うマイクロサービスの新規開発
 - Uipathを使った不動産情報クローラマイクロサービスの開発
+- Vagrant環境にHCP Vaultを導入
+- 新規マイクロサービスのローカル開発環境の作成
+- Terraformを使った新規マイクロサービスのインフラ構築
 
 【発揮したバリュー】英語が使えることを活かし、英語ベースでの業務を行なっているチームへ参画し、新規機能のフロントエンドとバックエンド
 の開発を行いました。フロントエンドが自分が一番詳しい場合が多かったので、フォーカスはフロントエンドですが、工数が足りない場合は
