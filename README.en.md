@@ -80,9 +80,9 @@ AWS CDK | Github Actions | Terraform | Vagrant | Docker | Nginx | unicorn | Apac
 
 ### Development of MA-based PaaS (February 2022~)
 
-Project Summary] Development of sales support and MA tool digima
+【Project Summary] Development of sales support and MA tool digima
 
-Responsibilities】 Front-end development, back-end development, and some infrastructure development
+【Responsibilities】 Front-end development, back-end development, and some infrastructure development
 - Software engineering work in a fully English-speaking team
 - golang microservices + Laravel proxy API backend development
 - Full replacement of SMS sending function and development of WYSIWYG editor using Draft.js
@@ -93,7 +93,7 @@ Responsibilities】 Front-end development, back-end development, and some infras
 - Creation of local development environment for new microservice
 - Creation of infrastructure for a new microservice using Terraform
 
-Value】I was able to use my English skills to join a team that was working in an English-based environment, and developed the front-end and back-end of a new function.
+【Value】I was able to use my English skills to join a team that was working in an English-based environment, and developed the front-end and back-end of a new function.
 I developed the front-end and back-end of the new functionality. In many cases, I was the most knowledgeable about the front-end, so my focus was on the front-end, but if there were not enough man-hours, I proactively developed the back-end.
 I was new to both golang and React, but I caught up in about a month.
 I started to take the lead in front-end design, library selection, legacy code improvement, etc., while back-end man-hours were heavy, so I started to focus on back-end development.
@@ -102,9 +102,9 @@ I mainly developed the backend. I was also actively involved in building the inf
 
 ### Development of AI-based data analysis platform (May~Feb. 2021, Subsequent work)
 
-Project Summary】Development of datagusto, an AI-based product that allows users to easily create and simulate AI.
+【Project Summary】Development of datagusto, an AI-based product that allows users to easily create and simulate AI.
 
-Responsibilities】Front-end design (components, applications), front-end development (Vue.js/TypeScript/Amplify/Storybook/Playwright), offshore management (Vietnam), back-end API development (Python/ FastAPI)/Infrastructure coding with AWS CDK (PR and coding for IAM user creation)
+【Responsibilities】Front-end design (components, applications), front-end development (Vue.js/TypeScript/Amplify/Storybook/Playwright), offshore management (Vietnam), back-end API development (Python/ FastAPI)/Infrastructure coding with AWS CDK (PR and coding for IAM user creation)
 
 - Front-end development with Vue.js + TypeScript + Vuetify
 - Leveling of development environment by Package Manager, Editor configuration, Linter/Formatter, Makefile
@@ -126,18 +126,18 @@ The client initially asked us to design and develop a platform that could scale.
 
 ### Ongoing development of a side job matching website (April 2021~May 2021)
 
-Project Summary】Development of CrowdLinks, a side hustle matching site.
+【Project Summary】Development of CrowdLinks, a side hustle matching site.
 
-Responsibilities】Development of new functions
+【Responsibilities】Development of new functions
 
-Value】Took charge of UI and backend API modifications for new functionality development.
+【Value】Took charge of UI and backend API modifications for new functionality development.
 
 
 ### Development of a job posting system for a job change site for designers (February 2021~March 2021)
 
-Project Summary】Addition of functionality to the job posting system of a job transition site for designers.
+【Project Summary】Addition of functionality to the job posting system of a job transition site for designers.
 
-Duties】Front-end development/design, etc.
+【Duties】Front-end development/design, etc.
 
 - Responsible for developing new front-end functions
 - Research and implementation of various Nuxt community plug-ins (Markdown-it, Sentry)
@@ -147,16 +147,16 @@ Duties】Front-end development/design, etc.
 - Inventory of site improvement points to improve SEO inflow
 - Creation of authorization module for components
 
-Value Demonstrated] This was my first time using Nuxt for static typing, but I caught up with it despite some difficulties.
+[Value Demonstrated] This was my first time using Nuxt for static typing, but I caught up with it despite some difficulties.
 After catching up, we investigated and implemented new technologies at the same time, and achieved a number of new functions in about one month.
 He also implemented various automations and ambitiously added new technologies to the project's infrastructure. Front-end engineers
 We contributed to the creation of a project that maximized the development productivity of the front-end engineers and that could be talked about when communicating to the outside world.
 
-### Development of PaaS EC site for D2C (October 2020 - March 2021)
+### Development of PaaS EC site for D2C (Oct 2020~Mar 2021)
 
-Project Summary】BFF development engineer for PaaS EC site for D2C
+【Project Summary】BFF Development Engineer for PaaS EC site for D2C
 
-Responsibilities】By working as a BFF engineer, you will be in charge of front-end and back-end implementation.
+【Responsibilities】By working as a BFF engineer, you will be in charge of front-end and back-end implementation.
 
 - Create docker-compose/bash scripts for local development when launching a new brand.
 - Conducted research and inventory of problem areas to improve site speed
@@ -165,6 +165,49 @@ Responsibilities】By working as a BFF engineer, you will be in charge of front-
 
 The project was a PHP and TypeScript project that used a lot of functional libraries.
 The development style was agile, DDD and high level environment, but
-Caught up with quite a lot of hard work. The level of application code was high.
+Caught up with quite a lot of hard work. The level of the application code was so high that
+initially completely toothless, but eventually built on DDD's tactical patterns.
+We eventually had to refactor the existing code (cart module), which was built using DDD's tactical pattern and had a very large impact on the project.
+Contributed as part of the final team, even in a difficult catch-up situation.
+Designed and developed a search avoidance module for SEO in a multi-brand, multi environment environment, and other problems that the existing code base could not compete with.
+He persevered to tackle problems that we could not compete with and demonstrated the ability to finish the job.
 
-Translated with www.DeepL.com/Translator (free version)
+
+### Development of food tech web service (February 2020~December 2020)
+
+【Project Summary】Modification of backend API and test code for Japan's largest food tech service / Ongoing development and design/marketing support for a related EC site / Director and engineer for a commissioned project for a women's bag brand / New development of a sustainable EC site / Development of a new sustainable e-commerce site / Integration of a sustainable e-commerce site into a sustainable media site
+
+【Responsibilities】I contributed to multiple web services for multiple businesses from a variety of perspectives, including engineer, marketer, and director.
+I contributed to the sales increase of the business.
+
+- Automation of report generation and emailing to stores through batch processing using Laravel / Vue.js
+- Designed tables related to the development of new functions for the EC site
+- Research and incorporation to create automated PR from stagin to master branch
+- Using our knowledge of building EC sites, quickly release new business and EC sites into production using Shopify
+- Using our knowledge of webhooks, build Shopify/Slack integration and Shopify/media site integration
+- Direction and development of a new contracted development project for a women's bag brand
+- Creation of SEO strategy and review of possible measures
+- Set up a team to bridge the gap between SEO and development
+
+[Value Demonstrated] Started as an engineer at a business company for the first time in a completely different environment from the implementation methods used in contracted development up to now.
+Value】I started as an engineer at an operating company for the first time. To be honest, it was difficult to say that I was doing a decent job of development, but I spent my time learning on my days off.
+I caught up with the Laravel and Vue development methods in a short time. After that, I started working in the area of SEO X development, which I had gained a lot of experience in during my part time job.
+He has demonstrated his value in the area of SEO X development, an area in which he had gained a lot of experience during his part-time job. As an engineer who also understands marketing and direction, he has contributed to the launch of several new businesses. He contributed to the increase in sales of the business unit.
+
+### Development of a matching service for medical institutions and medical professionals (July 2019~Feb 2020)
+
+【Project Summary】Development of a new contracted matching service connecting medical institutions and medical professionals. 80% of the screens were developed in Vietnam, and 20% of the screens were developed in Japan. The Japanese side was in charge of about 20% of the screen development. The entire integration, bug fixes, and UAT were also done in Japan, from design to release.
+
+Responsible for Development of the core part of the web application (Laravel, jQuery) / Management of offshore development and assurance of code integrity
+
+- Back-end development with Laravel
+- Front-end development using jQuery + Laravel blade
+- Table design
+- Application architecture design
+- English communication with offshore developers
+
+[Value Demonstrated] This was my first full-time engineering work experience, and to be honest, the work was completely toothless.
+However, I caught up with the Laravel + jQuery stack in about a month. New feature development and simple implementation
+I grew up to be able to take charge of new feature development and simple architecture design. He showed his potential and speed to move his hands
+He also contributed to the team, which was short on man-hours for markup and other tasks, which he had experience in. Even in the midst of adversity, such as a significant delay in the project deadline, I was able to contribute to the engineering team until the very end.
+I was the only engineer who stayed on until the end of the project and contributed to the delivery of the project even in the face of adversity.
