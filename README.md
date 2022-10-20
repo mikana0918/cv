@@ -11,7 +11,8 @@
 |英語力|TOEIC960点(大学3年時)|
 
 ## 概要
-
+- バックエンドGoマイクロサービスの構築および設計段階から携わった経験があります。
+- マイクロフロントエンドを構築した経験があります。
 - モダンなフロントエンド（主にVue.js/Nuxt.js）における基盤コード開発からE2Eテスト基盤、storybook基盤構築、コンポーネント設計、CI/CD基盤開発などフロントエンド技術と自動化技術に強みがあります。
 - バックエンドにおいても、動的・静的型付けの主要な言語(PHP,Python,Kotlin)と各種フレームワーク、DB（MySQL, PostgreSQL）の経験があり、フルスタックからフロントエンド専業まで柔軟な対応ができます。
 - 各種GoF系のデザインパターン（Builder, Strategy, Composition, Decorator, Facade, Adapter etc）の扱いにある程度習熟しており、アプリケーションアーキテクチャ設計にも経験があります。
@@ -28,15 +29,19 @@
 
 ### 言語
 
- PHP | JavaScript | TypeScript | golang | bash |  Kotlin | Python | 
+PHP | JavaScript | TypeScript | Golang | Kotlin | Python | bash script
 
 ### フレームワーク等(ver.)
 
- Laravel |  FastAPI | Spring Boot | CakePHP(3) | Nuxt.js | Vue.js(~2.7) | React.js(17.x) | WordPress |
+Laravel |  FastAPI | Spring Boot | Gin | CakePHP(3) | Nuxt.js | Vue.js | React.js(17.x) | WordPress |
 
 ### RDB/NoSQL
 
-MySQL | PostgreSQL | CloudFirestore | MongoDB 
+MySQL | PostgreSQL | CloudFirestore | MongoDB
+
+###　検索エンジン
+
+ElasticSearch
 
 ### クラウド
 
@@ -55,7 +60,7 @@ GitHub | GitHub Actions | CircleCI | DataDog | Sentry | Shopify
 
 ### その他
 
-AWS CDK | Github Actions | Terraform | Docker | nginx | unicorn | Apache | Gulp | Webpack | SASS | Vuetify | ElementUI | Puppeteer | Playwright 
+AWS CDK | Github Actions | Terraform | Vagrant | Docker | Nginx | unicorn | Apache | Gulp | Webpack | SASS | Vuetify | ElementUI | Puppeteer | Playwright | Hashicorp Vault | Redux | React Hook Form | Draft.js | UiPath |
 
 ## バリューを発揮しやすい業務
 - フロントエンド設計
@@ -78,13 +83,12 @@ AWS CDK | Github Actions | Terraform | Docker | nginx | unicorn | Apache | Gulp 
 【プロジェクト概要】営業支援およびMA系ツールdigimaの開発
 
 【担当業務】 フロントエンド開発、バックエンド開発、一部インフラ開発
-- React.js + TypeScriptによるフロントエンド開発
+- 完全に英語を使ったチームでのソフトウェアエンジニア業務
 - golangマイクロサービス + Laravel proxy APIバックエンド開発
-- SMS送信機能のフルリプレイス
-- バックエンドマイクロサービスへの機能追加・移行・テストコード作成
+- SMS送信機能のフルリプレイスおよびDraft.jsを使ったWYSIWYGエディタの開発
 - Elasticsearchを使った全文検索マイクロサービスの新規開発
 - メールサーバーからSMTP/IMAPプロトコルを利用してメール送信受信を行うマイクロサービスの新規開発
-- Uipathを使った不動産情報クローラマイクロサービスの開発
+- UiPathを使った不動産情報クローラマイクロサービスの開発
 - Vagrant環境にHCP Vaultを導入
 - 新規マイクロサービスのローカル開発環境の作成
 - Terraformを使った新規マイクロサービスのインフラ構築
@@ -93,7 +97,7 @@ AWS CDK | Github Actions | Terraform | Docker | nginx | unicorn | Apache | Gulp 
 の開発を行いました。フロントエンドが自分が一番詳しい場合が多かったので、フォーカスはフロントエンドですが、工数が足りない場合は
 積極的にバックエンドの開発も行っていました。golang + Reactの組み合わせはいずれも初めてでしたが、1ヶ月程度でキャッチアップをしました。
 途中からフロントエンドの設計やライブラリ選定、レガシーコード改善などフロントエンドの旗振り役をしつつ、バックエンドの工数が重たかったので、
-バックエンドをメインで開発していました。
+バックエンドをメインで開発していました。インフラ部分およびローカル開発環境の構築も積極的に行いました。
 
 
 ### AI系データ分析プラットフォームの開発 (2021年5月~2月, 以後副業)
