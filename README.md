@@ -13,7 +13,7 @@
 ## 概要
 - バックエンドGoマイクロサービスの構築および設計段階から携わった経験があります。
 - マイクロフロントエンドを構築した経験があります。
-- モダンなフロントエンド（主にVue.js/Nuxt.js）における基盤コード開発からE2Eテスト基盤、storybook基盤構築、コンポーネント設計、CI/CD基盤開発などフロントエンド技術と自動化技術に強みがあります。
+- モダンなフロントエンドにおける基盤コード開発からE2Eテスト基盤、storybook基盤構築、コンポーネント設計、CI/CD基盤開発などフロントエンド技術と自動化技術に強みがあります。
 - バックエンドにおいても、動的・静的型付けの主要な言語(PHP,Python,Kotlin)と各種フレームワーク、DB（MySQL, PostgreSQL）の経験があり、フルスタックからフロントエンド専業まで柔軟な対応ができます。
 - 各種GoF系のデザインパターン（Builder, Strategy, Composition, Decorator, Facade, Adapter etc）の扱いにある程度習熟しており、アプリケーションアーキテクチャ設計にも経験があります。
 - ドメイン駆動開発における戦術的パターンに関して、最低限、実務を行う程度の理解があります。（業務経験あり）
@@ -60,7 +60,7 @@ GitHub | GitHub Actions | CircleCI | DataDog | Sentry | Shopify
 
 ### その他
 
-AWS CDK | Github Actions | Terraform | Vagrant | Docker | Nginx | unicorn | Apache | Gulp | Webpack | SASS | Vuetify | ElementUI | Puppeteer | Playwright | Hashicorp Vault | Redux | React Hook Form | Draft.js | UiPath |
+AWS CDK | Github Actions | Terraform | Vagrant | Docker | Nginx | unicorn | Apache | Gulp | Webpack | SASS | Vuetify | ElementUI | Puppeteer | Playwright | Hashicorp Vault | Redux | React Hook Form | Draft.js | UiPath | Postman | Cypress | gRPC |
 
 ## バリューを発揮しやすい業務
 - フロントエンド設計
