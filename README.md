@@ -7,7 +7,6 @@
 |名前|楠原 彰悟|
 |現住所|大阪府 大阪市|
 |Zenn|[@mikana0918](https://zenn.dev/mikana0918)
-|ブログ|[Tinglehacker](https://raku-noma.site/) (月間PV5万越を達成)
 |英語力|TOEIC960点(大学3年時)|
 
 ## 概要
@@ -47,7 +46,7 @@ ElasticSearch
 
 #### AWS
 
-Amplify | VPC | S3 | Cloud Front | Lambda | ECS | Fargate | ECR |  IAM | RDS(MySQL|PostgreSQL) | Aurora | SNS | SES | CloudFormation | CloudWatch | CloudTrail | SecretsManager | CodeDeploy | CodePipeline | CodeBuild | EventBridge | SSM | 
+Amplify | VPC | S3 | Cloud Front | Lambda | ECS | Fargate | ECR |  IAM | RDS(MySQL|PostgreSQL) | Aurora | SNS | SES | CloudFormation | CloudWatch | CloudTrail | SecretsManager | CodeDeploy | CodePipeline | CodeBuild | EventBridge | SSM | Cognito | ACM | Route53 | 
 
 
 #### GCP 
@@ -83,21 +82,24 @@ AWS CDK | Github Actions | Terraform | Vagrant | Docker | Nginx | unicorn | Apac
 【プロジェクト概要】営業支援およびMA系ツールdigimaの開発
 
 【担当業務】 フロントエンド開発、バックエンド開発、一部インフラ開発
-- 完全に英語を使ったチームでのソフトウェアエンジニア業務
+- 英語(100%)を使ったチームでのソフトウェアエンジニア業務
 - golangマイクロサービス + Laravel proxy APIバックエンド開発
-- SMS送信機能のフルリプレイスおよびDraft.jsを使ったWYSIWYGエディタの開発
+- SMS送信機能のフルリプレイスおよびDraft.jsを使ったWYSIWYG SMSエディタの開発
 - Elasticsearchを使った全文検索マイクロサービスの新規開発
-- メールサーバーからSMTP/IMAPプロトコルを利用してメール送信受信を行うマイクロサービスの新規開発
-- UiPathを使った不動産情報クローラマイクロサービスの開発
+- SMTP/IMAP経由で顧客のメールを自社DBに同期し、メール送受信を行うマイクロサービスの新規開発
+- UiPathを使った不動産情報クローラマイクロサービスの新規開発
 - Vagrant環境にHCP Vaultを導入
 - 新規マイクロサービスのローカル開発環境の作成
 - Terraformを使った新規マイクロサービスのインフラ構築
+- GithubActionsを使ったProtocol Buffers stubファイルの自動作成・リリース
+- Reviewdogを導入し、LinterのCIデュレーションを50%削減
+- Jenkinsパイプラインを並列化しJobを高速化
 
 【発揮したバリュー】英語が使えることを活かし、英語ベースでの業務を行なっているチームへ参画し、新規機能のフロントエンドとバックエンド
-の開発を行いました。フロントエンドが自分が一番詳しい場合が多かったので、フォーカスはフロントエンドですが、工数が足りない場合は
-積極的にバックエンドの開発も行っていました。golang + Reactの組み合わせはいずれも初めてでしたが、1ヶ月程度でキャッチアップをしました。
+の開発を行いました。フロントエンドが自分が一番詳しい場合が多かったので、フロントエンドの全体的なところを見つつ、積極的にバックエンドの開発も行っていました。
+golang + Reactの組み合わせはいずれも初めてでしたが、1ヶ月程度でキャッチアップをしました。
 途中からフロントエンドの設計やライブラリ選定、レガシーコード改善などフロントエンドの旗振り役をしつつ、バックエンドの工数が重たかったので、
-バックエンドをメインで開発していました。インフラ部分およびローカル開発環境の構築も積極的に行いました。
+バックエンドをメインで開発していました。インフラ部分およびローカル開発環境の構築・改善も積極的に行いました。
 
 
 ### AI系データ分析プラットフォームの開発 (2021年5月~2月, 以後副業)
