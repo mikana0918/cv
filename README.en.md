@@ -4,24 +4,18 @@
 
 |key|value|
 |----|----|
-|name|Shogo Kusuhara
+|name|Shogo Kusuhara|
 |Current address|Osaka-shi, Osaka|
 |Zenn|[@mikana0918](https://zenn.dev/mikana0918)
-|Blog|[Tinglehacker](https://raku-noma.site/) (PV over 50,000 per month)
 |English Proficiency|TOEIC score 960 (in my 3rd year of university)|
 
 ## Overview
-- I have experience in building backend Go microservices and working on them from the design phase.
-- Experience building micro front-ends.
-- I have strength in front-end technologies and automation technologies such as E2E test infrastructure, storybook infrastructure, component design, and CI/CD infrastructure development, as well as infrastructure code development for modern front-ends.
-- In the backend, we have experience with major dynamic and statically typed languages (PHP, Python, Kotlin), various frameworks, and DB (MySQL, PostgreSQL), and can flexibly handle everything from full stacks to specialized front-end work.
-- I have some experience with various GoF design patterns (Builder, Strategy, Composition, Decorator, Facade, Adapter, etc.), and I am also experienced in application architecture design.
-- At least a working understanding of tactical patterns in domain-driven development. (Has work experience)
-- Knowledge of AWS managed services, IaC and CI/CD infrastructure using AWS CDK, and knowledge and work experience in serverless infrastructure such as various API integration.
-
-- He is an engineer who can easily demonstrate his value in startups, small web development teams, and other situations where a limited number of people are required to take charge of a wide range of areas.
-
-- He also has knowledge of SEO (his personal blog has achieved more than 50,000 PV per month), web marketing and growth strategies, and practical experience as a web director.
+- I have experience working as CTO or in CTO-level positions at multiple companies
+- From 2024, I have increased the ratio of development direction and project management over development work
+- I have experience as a business owner and can flexibly handle resource optimization, bottleneck resolution, sales, and development while viewing the company from a bird's eye view
+- I have experience in enterprise and government development projects
+- I have some experience working with multinational teams using English
+- I can handle a wide range of cutting-edge technical topics such as microservices, micro-frontends, and AI with full-stack capabilities
 
 ## Skills
 
@@ -33,7 +27,7 @@ PHP | JavaScript | TypeScript | Golang | Kotlin | Python | bash script
 
 ### Frameworks (ver.)
 
-Laravel | FastAPI | Spring Boot | Gin | CakePHP(3) | Nuxt.js | Vue.js | React.js(17.x) | WordPress
+Laravel | FastAPI | Spring Boot | Gin | CakePHP(3) | Nuxt.js | Vue.js | React.js | WordPress | Next.js
 
 ### RDB/NoSQL
 
@@ -41,18 +35,17 @@ MySQL | PostgreSQL | CloudFirestore | MongoDB
 
 ### Search Engine
 
-ElasticSearch
+ElasticSearch | OpenSearch
 
 ### Cloud computing
 
 #### AWS
 
-Amplify | VPC | S3 | Cloud Front | Lambda | ECS | Fargate | ECR | IAM | RDS(MySQL|PostgreSQL) | Aurora | SNS | SES | CloudFormation | CloudWatch | CloudTrail | SecretsManager | CodeDeploy | CodePipeline | CodeBuild | EventBridge | SSM 
-
+Amplify | VPC | S3 | Cloud Front | Lambda | ECS | Fargate | ECR | IAM | RDS(MySQL|PostgreSQL) | Aurora | SNS | SES | CloudFormation | CloudWatch | CloudTrail | SecretsManager | CodeDeploy | CodePipeline | CodeBuild | EventBridge | SSM | Cognito | ACM | Route53 | OpenSearch | ElastiCache | EFS | EventBridge | SQS |
 
 #### GCP 
 
-Cloud Functions | Cloud Firestore | Firebase Hosting
+Cloud Functions | Cloud Firestore | Firebase Hosting | Colab Notebook |
 
 ### SaaS/PaaS
 
@@ -60,154 +53,160 @@ GitHub | GitHub Actions | CircleCI | DataDog | Sentry | Shopify
 
 ### Other
 
-AWS CDK | Github Actions | Terraform | Vagrant | Docker | Nginx | unicorn | Apache | Gulp | Webpack | SASS | Vuetify | ElementUI | Puppeteer | Playwright Hashicorp Vault | Redux | React Hook Form | Draft.js | UiPath | Postman | Cypress | gRPC |
+AWS CDK | Github Actions | Terraform | Vagrant | Docker | Nginx | unicorn | Apache | Gulp | Webpack | SASS | Vuetify | ElementUI | Puppeteer | Playwright | Hashicorp Vault | Redux | React Hook Form | Draft.js | UiPath | Postman | Cypress | gRPC |
 
-## Work that can easily demonstrate value
-- Front-end design
-- Full stack development in BFF configuration
-- Package manager implementation
-- Introduction of Linter and Formatter
-- Implementation of unit and integration testing
-- Application design
-- Proper definition of git branch model
-- Build a serverless infrastructure
-- CI/CD pipeline construction
-- Building e2e testing infrastructure
-- Infrastructure coding
+## Areas where I can demonstrate value
+- Implementation and management of development projects
+- Project estimation, sales, and solution architect work
+- Application-level system design and system architecture
+- Facilitating teamwork in environments requiring English
 - Deployment automation
 
 ## Main Work Experience
 
-### Development of MA-based PaaS (February 2022~)
+### Entrepreneurship (June 2024~)
+Here are some selected examples from many projects:
 
-【Project Summary] Development of sales support and MA tool digima
+#### 1.
+【Project Summary】Payment and order management app for online salons/communities
+【Project Scale】2 engineers + 8 business team members
+【Role】Design, development management, project management, development, testing, operations maintenance
 
-【Responsibilities】 Front-end development, back-end development, and some infrastructure development
+【Value Demonstrated】I developed a community application for online salons. While some clients were not very familiar with web development and initial communication was difficult, I systematized the development process through development direction and communication to make it run smoothly. By handling everything through to development, I was able to deliver development work with short delivery times and at low cost.
+
+#### 2.
+【Project Summary】Development of a blockchain game operating on Astar blockchain
+【Project Scale】4 engineers (multinational) + Game planning (3) + Business team (2)
+【Role】Project management, development communication, and implementation
+
+【Value Demonstrated】I was involved from the planning stage of the blockchain game. I was involved in all development flows. Through development direction and implementation capabilities, we managed to meet a schedule that was initially thought impossible to release on time.
+
+#### 3.
+【Project Summary】Development of streaming service for AI/VTubers
+【Project Scale】4 engineers (multinational) + Business team (2)
+【Role】Design, requirements definition, project management and development communication, implementation
+
+【Value Demonstrated】I was involved from development planning. Development was handled by a multinational engineering team. The Web3.0 parts were mainly handled by the international team, while the Web2.0 parts were handled by the Japanese team. Although requirements definition was extremely difficult as there were no similar services, through persistent specification review and client communication, we managed to complete the project. We also successfully executed and completed basic research to operate an unprecedented AI/VTuber model in close cooperation with foreign engineers.
+
+### Public Sector Project Development (May 2023~)
+
+【Project Summary】PoC to continuous development of public systems using only Frourio OSS ecosystem and Node.js
+
+【Responsibilities】Frontend, backend design and development. Infrastructure review etc.
+- Development of QR code reader/NFC reader module for Kanto Transport Bureau (Node.js)
+- Continuous development of PoC for Kanto Transport Bureau
+- Development of PoC for pre-application system
+- Development of PoC for transfer application system
+
+【Value Demonstrated】Using Frourio, a full-stack development with Node.js + TypeScript, I succeeded in appropriately developing one application in a short delivery time of about one month with almost no fatal bugs. Contributing to PoC development with MVP that eliminated everything unnecessary by working backwards from digitizing government office operations. Also experienced developing PoC for new business systems while deciphering legacy code. Completed reading legacy code in a few days, presented problems, and proposed a pre-application system that was revamped to be easier to implement in operational flows.
+
+### Development of MA-based PaaS (February 2022~March 2023)
+
+【Project Summary】Development of sales support and MA tool digima
+
+【Responsibilities】Front-end development, back-end development, and some infrastructure development
 - Software engineering work in a fully English-speaking team
 - golang microservices + Laravel proxy API backend development
-- Full replacement of SMS sending function and development of WYSIWYG editor using Draft.js
+- Full replacement of SMS sending function and development of WYSIWYG SMS editor using Draft.js
 - New development of full-text search microservice using Elasticsearch
-- Development of a new microservice for sending and receiving e-mail from a mail server using SMTP/IMAP protocols
+- Development of a new microservice for synchronizing customer emails to our DB and handling email sending/receiving via SMTP/IMAP
 - Development of a real estate information crawler microservice using UiPath
 - Deployment of HCP Vault in Vagrant environment
 - Creation of local development environment for new microservice
-- Creation of infrastructure for a new microservice using Terraform
+- Infrastructure creation for new microservices using Terraform
+- Automatic creation and release of Protocol Buffers stub files using GithubActions
+- Introduced Reviewdog and reduced Linter CI duration by 50%
+- Parallelized Jenkins pipeline to speed up jobs
 
-【Value】I was able to use my English skills to join a team that was working in an English-based environment, and developed the front-end and back-end of a new function.
-I developed the front-end and back-end of the new functionality. In many cases, I was the most knowledgeable about the front-end, so my focus was on the front-end, but if there were not enough man-hours, I proactively developed the back-end.
-I was new to both golang and React, but I caught up in about a month.
-I started to take the lead in front-end design, library selection, legacy code improvement, etc., while back-end man-hours were heavy, so I started to focus on back-end development.
-I mainly developed the backend. I was also actively involved in building the infrastructure and local development environment.
+【Value Demonstrated】I was able to use my English skills to join a team that was working in an English-based environment, and developed both front-end and back-end of new features. In many cases, I was the most knowledgeable about the front-end, so while keeping an eye on the overall front-end, I actively engaged in backend development when needed. Although I was new to both golang + React, I caught up in about a month. Later, while taking the lead in front-end design, library selection, and legacy code improvement, I mainly focused on backend development as the backend workload was heavy. I also actively worked on infrastructure and local development environment improvements.
 
+### Development of AI-based data analysis platform (May 2021~February 2021, then part-time)
 
-### Development of AI-based data analysis platform (May~Feb. 2021, Subsequent work)
+【Project Summary】Development of datagusto, an AI product that allows users to easily create and simulate AI
 
-【Project Summary】Development of datagusto, an AI-based product that allows users to easily create and simulate AI.
-
-【Responsibilities】Front-end design (components, applications), front-end development (Vue.js/TypeScript/Amplify/Storybook/Playwright), offshore management (Vietnam), back-end API development (Python/ FastAPI)/Infrastructure coding with AWS CDK (PR and coding for IAM user creation)
+【Responsibilities】Front-end design (components, applications), front-end development (Vue.js/TypeScript/Amplify/Storybook/Playwright), offshore management (Vietnam), back-end API development (Python/FastAPI)/Infrastructure coding with AWS CDK (PR and coding for IAM user creation)
 
 - Front-end development with Vue.js + TypeScript + Vuetify
-- Leveling of development environment by Package Manager, Editor configuration, Linter/Formatter, Makefile
-- Investigation and practice of technologies such as CompositionAPI (for vue2) and functional components
+- Standardization of development environment through Package Manager, Editor configuration, Linter/Formatter, Makefile
+- Investigation and implementation of technologies such as CompositionAPI (for vue2) and functional components
 - Introduction of Sentry
-- Maintenance of development documentation
-- Development of backend API using Python + FastAPI
-- Deployment of Playwright and maintenance of infrastructure e2e code pipeline
-- Developed infrastructure components using Vuetify
-- Automated IAM user creation with IaC using AWSCDK
-- Backup for offshore development using English language skills
-- Creation of authorization module for components
-- Building cross-account CI/CD pipeline for PrivateCloud version release (AWS and github)
-- slack integration
-- Research~implementation of updates to Vue3
+- Development documentation maintenance
+- Backend API development using Python + FastAPI
+- Introduction of Playwright and infrastructure e2e code/pipeline maintenance
+- Development of infrastructure components using Vuetify
+- Automation of IAM user creation using AWS CDK IaC
+- Support for offshore development using English skills
+- Creation of component authorization module
+- Building cross-account CI/CD pipeline for PrivateCloud version release (AWS/github)
+- Slack integration
+- Investigation and implementation of Vue3 updates
 
-The client initially asked us to design and develop a platform that could scale. We designed front-end components, built StoryBook, and implemented E2E testing. We also had to manage the offshore development, so we used English to deal with the project. I also spent my holidays learning about AWS CDK, but I caught up. He contributed to the creation of a fast and robust front-end infrastructure and DevOps infrastructure.
+【Value Demonstrated】The client initially requested a scalable design and development foundation. We handled everything from front-end component design to StoryBook construction and E2E test implementation. As offshore development management was also required, we handled communications in English. For Python/FastAPI, while it was my first experience in a business context, I caught up quickly. For AWS CDK, although I only had theoretical knowledge about infrastructure coding, I dedicated my free time to learning and caught up here as well. I contributed to creating a fast and robust front-end infrastructure and DevOps foundation.
 
+### Ongoing development of side job matching site (April 2021~May 2021)
 
-### Ongoing development of a side job matching website (April 2021~May 2021)
+【Project Summary】Development of CrowdLinks, a side job matching site
 
-【Project Summary】Development of CrowdLinks, a side hustle matching site.
+【Responsibilities】New feature development
 
-【Responsibilities】Development of new functions
+【Value Demonstrated】Handled UI and backend API modifications for new feature development.
 
-【Value】Took charge of UI and backend API modifications for new functionality development.
+### Development of job posting system for designer job change site (February 2021~March 2021)
 
+【Project Summary】Adding functionality to the job posting system of a job change site for designers
 
-### Development of a job posting system for a job change site for designers (February 2021~March 2021)
+【Responsibilities】Front-end development/design, etc.
 
-【Project Summary】Addition of functionality to the job posting system of a job transition site for designers.
-
-【Duties】Front-end development/design, etc.
-
-- Responsible for developing new front-end functions
-- Research and implementation of various Nuxt community plug-ins (Markdown-it, Sentry)
+- Responsible for new front-end feature development
+- Research and implementation of various Nuxt community plugins (Markdown-it, Sentry)
 - Overall refactoring of error modules
-- Fixing Node version by node-version and setting up package engine
-- E2E test automation and base code creation by researching and incorporating Playwright
-- Inventory of site improvement points to improve SEO inflow
-- Creation of authorization module for components
+- Node version fixing using node-version and package engine setup
+- E2E test automation and base code creation through Playwright research and implementation
+- Inventory of site improvement points for SEO optimization
+- Creation of component authorization module
 
-[Value Demonstrated] This was my first time using Nuxt for static typing, but I caught up with it despite some difficulties.
-After catching up, we investigated and implemented new technologies at the same time, and achieved a number of new functions in about one month.
-He also implemented various automations and ambitiously added new technologies to the project's infrastructure. Front-end engineers
-We contributed to the creation of a project that maximized the development productivity of the front-end engineers and that could be talked about when communicating to the outside world.
+【Value Demonstrated】This was my first time using statically-typed Nuxt, but I managed to catch up despite difficulties. After catching up, I simultaneously investigated and implemented new technologies, achieving numerous new features in about a month. I also implemented various automations and actively added new technologies to the project infrastructure. I contributed to creating a project that maximized front-end engineer development productivity and could be showcased when communicating externally.
 
-### Development of PaaS EC site for D2C (Oct 2020~Mar 2021)
+### Development of D2C PaaS EC site (October 2020~March 2021)
 
-【Project Summary】BFF Development Engineer for PaaS EC site for D2C
+【Project Summary】BFF Development Engineer for D2C PaaS EC site
 
-【Responsibilities】By working as a BFF engineer, you will be in charge of front-end and back-end implementation.
+【Responsibilities】As a BFF engineer, handled both front-end and back-end implementation
 
-- Create docker-compose/bash scripts for local development when launching a new brand.
-- Conducted research and inventory of problem areas to improve site speed
-- Modified the entire cart module to add a new product type (contact lenses)
-- Created, designed, and tested a module to avoid SEO searches in non-production environments that can be referenced directly by IP, etc.
+- Created docker-compose/bash scripts for local development when launching new brands
+- Investigated and inventoried issues for site speed improvement
+- Complete overhaul of cart module for adding new product type (contact lenses)
+- Created, designed, and tested module to prevent SEO indexing in non-production environments accessible via direct IP
 
-The project was a PHP and TypeScript project that used a lot of functional libraries.
-The development style was agile, DDD and high level environment, but
-Caught up with quite a lot of hard work. The level of the application code was so high that
-initially completely toothless, but eventually built on DDD's tactical patterns.
-We eventually had to refactor the existing code (cart module), which was built using DDD's tactical pattern and had a very large impact on the project.
-Contributed as part of the final team, even in a difficult catch-up situation.
-Designed and developed a search avoidance module for SEO in a multi-brand, multi environment environment, and other problems that the existing code base could not compete with.
-He persevered to tackle problems that we could not compete with and demonstrated the ability to finish the job.
-
+【Value Demonstrated】The project used many functional libraries in PHP and TypeScript, with an agile development style and high-level DDD environment. Despite initial struggles with the high-level application code, I eventually managed to handle refactoring of existing code (cart module) built with DDD tactical patterns that had widespread impact. I persevered through difficult catch-up situations to contribute as a team member. I tackled challenging problems that couldn't be solved with existing codebase, such as designing and developing an SEO prevention module for multi-brand, multi-environment scenarios, demonstrating the ability to see things through to completion.
 
 ### Development of food tech web service (February 2020~December 2020)
 
-【Project Summary】Modification of backend API and test code for Japan's largest food tech service / Ongoing development and design/marketing support for a related EC site / Director and engineer for a commissioned project for a women's bag brand / New development of a sustainable EC site / Development of a new sustainable e-commerce site / Integration of a sustainable e-commerce site into a sustainable media site
+【Project Summary】Backend API modification and test code updates for Japan's largest food tech service / Ongoing development and design/marketing support for related EC site / Director and engineer for women's bag brand contracted project / New development of sustainable EC site / Integration of sustainable EC site into sustainable media site
 
-【Responsibilities】I contributed to multiple web services for multiple businesses from a variety of perspectives, including engineer, marketer, and director.
-I contributed to the sales increase of the business.
+【Responsibilities】Contributed to business growth through multiple roles including engineer, marketer, and director across multiple web services
 
-- Automation of report generation and emailing to stores through batch processing using Laravel / Vue.js
-- Designed tables related to the development of new functions for the EC site
-- Research and incorporation to create automated PR from stagin to master branch
-- Using our knowledge of building EC sites, quickly release new business and EC sites into production using Shopify
-- Using our knowledge of webhooks, build Shopify/Slack integration and Shopify/media site integration
-- Direction and development of a new contracted development project for a women's bag brand
-- Creation of SEO strategy and review of possible measures
-- Set up a team to bridge the gap between SEO and development
+- Automated report generation and email distribution to stores using Laravel/Vue.js batch processing
+- Table design for new EC site features
+- Research and implementation of automated PR creation from staging to master branch
+- Rapid production release of new business and EC sites using Shopify, leveraging EC site building expertise
+- Built Shopify/Slack integration and Shopify/media site integration using webhook knowledge
+- Complete direction and development of new contracted project for women's bag brand
+- Created and implemented SEO strategies
+- Established team to bridge SEO and development
 
-[Value Demonstrated] Started as an engineer at a business company for the first time in a completely different environment from the implementation methods used in contracted development up to now.
-Value】I started as an engineer at an operating company for the first time. To be honest, it was difficult to say that I was doing a decent job of development, but I spent my time learning on my days off.
-I caught up with the Laravel and Vue development methods in a short time. After that, I started working in the area of SEO X development, which I had gained a lot of experience in during my part time job.
-He has demonstrated his value in the area of SEO X development, an area in which he had gained a lot of experience during his part-time job. As an engineer who also understands marketing and direction, he has contributed to the launch of several new businesses. He contributed to the increase in sales of the business unit.
+【Value Demonstrated】Started as an engineer at a business company for the first time, in a completely different environment from previous contract development work. Despite initial development challenges, I invested extra time in learning and quickly caught up with Laravel and Vue development methods. I leveraged my extensive part-time experience in SEO X development to provide value. As an engineer who understands both marketing and direction, I contributed to multiple new business launches and helped increase business unit sales.
 
-### Development of a matching service for medical institutions and medical professionals (July 2019~Feb 2020)
+### Development of medical institution and healthcare professional matching service (July 2019~February 2020)
 
-【Project Summary】Development of a new contracted matching service connecting medical institutions and medical professionals. 80% of the screens were developed in Vietnam, and 20% of the screens were developed in Japan. The Japanese side was in charge of about 20% of the screen development. The entire integration, bug fixes, and UAT were also done in Japan, from design to release.
+【Project Summary】New contracted development of matching service connecting medical institutions and healthcare professionals. 80% of screens developed in Vietnam, 20% in Japan. Japanese side handled integration, bug fixes, and UAT, managing the project from design to release.
 
-Responsible for Development of the core part of the web application (Laravel, jQuery) / Management of offshore development and assurance of code integrity
+【Responsibilities】Core web application development (Laravel, jQuery) / Offshore development management and code consistency maintenance
 
-- Back-end development with Laravel
-- Front-end development using jQuery + Laravel blade
-- Table design
+- Backend development with Laravel
+- Frontend development using jQuery + Laravel blade
+- Database table design
 - Application architecture design
-- English communication with offshore developers
+- English communication with offshore team
 
-[Value Demonstrated] This was my first full-time engineering work experience, and to be honest, the work was completely toothless.
-However, I caught up with the Laravel + jQuery stack in about a month. New feature development and simple implementation
-I grew up to be able to take charge of new feature development and simple architecture design. He showed his potential and speed to move his hands
-He also contributed to the team, which was short on man-hours for markup and other tasks, which he had experience in. Even in the midst of adversity, such as a significant delay in the project deadline, I was able to contribute to the engineering team until the very end.
-I was the only engineer who stayed on until the end of the project and contributed to the delivery of the project even in the face of adversity.
+【Value Demonstrated】This was my first full-time engineering position, and initially, I struggled significantly. However, I caught up with the Laravel + jQuery stack within about a month, growing to handle new feature development and basic architecture design. I demonstrated potential and quick learning ability, contributing to areas like markup where the team needed support. Even as the project faced significant delays, I remained as the last engineer on the team, contributing until final delivery.
