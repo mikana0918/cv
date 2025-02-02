@@ -10,17 +10,12 @@
 |英語力|TOEIC960点(大学3年時)|
 
 ## 概要
-- バックエンドGoマイクロサービスの構築および設計段階から携わった経験があります。
-- マイクロフロントエンドを構築した経験があります。
-- モダンなフロントエンドにおける基盤コード開発からE2Eテスト基盤、storybook基盤構築、コンポーネント設計、CI/CD基盤開発などフロントエンド技術と自動化技術に強みがあります。
-- バックエンドにおいても、動的・静的型付けの主要な言語(PHP,Python,Kotlin)と各種フレームワーク、DB（MySQL, PostgreSQL）の経験があり、フルスタックからフロントエンド専業まで柔軟な対応ができます。
-- 各種GoF系のデザインパターン（Builder, Strategy, Composition, Decorator, Facade, Adapter etc）の扱いにある程度習熟しており、アプリケーションアーキテクチャ設計にも経験があります。
-- ドメイン駆動開発における戦術的パターンに関して、最低限、実務を行う程度の理解があります。（業務経験あり）
-- AWSのマネージドサービスにおける知見もあり、AWS CDKを使ったIaCおよびCI/CD基盤の構築、各種API連携などサーバーレス基盤の知見・業務経験もあります。
-
-- スタートアップ〜小規模web自社開発チームなど、限られた人数の中で広範な領域を担当する必要がある段階で価値を発揮しやすいエンジニアです。
-
-- SEO対策に対する知見（個人ブログにおいて月間5万PV以上達成）webマーケティング・グロース施策の知見もあり、webディレクターとしての実務経験もあるため、開発を飛び出した領域からwebサービスをバックアップできるのが強みです。
+- 複数社でのCTOもしくはCTO程度ポジションでの業務経験があります
+- 2024年からは開発業務よりも開発ディレクション・プロジェクト管理の比率をあげて活動しています
+- 経営者としての経験があり、企業を俯瞰でみながらリソースの最適化・ボトルネックの解消・営業・開発等柔軟に動くことができます
+- エンタープライズ・官公庁などの開発案件での経験があります
+- 英語を使った他国籍チームでの経験が一定あります
+- マイクロサービスやマイクロフロントエンド・AI等多種多様な最新高度な技術的トピックにもフルスタックで対応可能です
 
 ## スキル
 
@@ -32,26 +27,27 @@ PHP | JavaScript | TypeScript | Golang | Kotlin | Python | bash script
 
 ### フレームワーク等(ver.)
 
-Laravel |  FastAPI | Spring Boot | Gin | CakePHP(3) | Nuxt.js | Vue.js | React.js(17.x) | WordPress |
+Laravel |  FastAPI | Spring Boot | Gin | CakePHP(3) | Nuxt.js | Vue.js | React.js | WordPress | Next.js
 
 ### RDB/NoSQL
 
 MySQL | PostgreSQL | CloudFirestore | MongoDB
 
+
 ###　検索エンジン
 
-ElasticSearch
+ElasticSearch | OpenSearch
 
 ### クラウド
 
 #### AWS
 
-Amplify | VPC | S3 | Cloud Front | Lambda | ECS | Fargate | ECR |  IAM | RDS(MySQL|PostgreSQL) | Aurora | SNS | SES | CloudFormation | CloudWatch | CloudTrail | SecretsManager | CodeDeploy | CodePipeline | CodeBuild | EventBridge | SSM | Cognito | ACM | Route53 | 
+Amplify | VPC | S3 | Cloud Front | Lambda | ECS | Fargate | ECR |  IAM | RDS(MySQL|PostgreSQL) | Aurora | SNS | SES | CloudFormation | CloudWatch | CloudTrail | SecretsManager | CodeDeploy | CodePipeline | CodeBuild | EventBridge | SSM | Cognito | ACM | Route53 | OpenSearch | ElastiCache | EFS | EventBrdige | SQS |  
 
 
 #### GCP 
 
-Cloud Functions | Cloud Firestore | Firebase Hosting
+Cloud Functions | Cloud Firestore | Firebase Hosting | Colab Notebook |
 
 ### SaaS/PaaS
 
@@ -62,20 +58,46 @@ GitHub | GitHub Actions | CircleCI | DataDog | Sentry | Shopify
 AWS CDK | Github Actions | Terraform | Vagrant | Docker | Nginx | unicorn | Apache | Gulp | Webpack | SASS | Vuetify | ElementUI | Puppeteer | Playwright | Hashicorp Vault | Redux | React Hook Form | Draft.js | UiPath | Postman | Cypress | gRPC |
 
 ## バリューを発揮しやすい業務
-- フロントエンド設計
-- BFF構成におけるフルスタック開発
-- パッケージマネージャの導入
-- LinterやFormatterの導入
-- 単体テストや統合テストの導入
-- アプリケーション設計
-- gitブランチモデルの適切な定義
-- サーバーレス基盤構築
-- CI/CDパイプラインの構築
-- e2eテスト基盤構築
-- インフラのコード化
+- 開発プロジェクトの導入および管理
+- 開発プロジェクトの見積もり・営業・ソリューションアーキテクト業務
+- アプリケーションレベルのシステムデザインおよびシステム設計
+- 英語が必要な環境でのチームワークの円滑化
 - デプロイの自動化
 
 ## 主な業務経歴
+
+### 起業 (2024年6月〜)
+多数ありますが、いくつか抜粋したものを掲載します。
+
+#### 1.
+【プロジェクト概要】オンラインサロン・コミュニティむけ決済・受発注アプリ
+【案件規模】エンジニア２名＋ビジネスチーム８名程度
+【担当】デザイン、開発管理、プロジェクト管理、開発、テスト、運用保守
+
+【発揮したバリュー】オンラインサロンむけのコミュニティアプリケーションを開発させていただきました。クライアントの皆様の中には
+WEBにあまり詳しくなく当初の意思疎通は困難でしたが、開発ディレクションおよびコミュニケーションにより円滑に開発プロセスをまわせるように
+仕組み化しました。開発まで一貫して実施することで、短納期・安価な開発をデリバリーできました。
+
+
+#### 2.
+【プロジェクト概要】Astarブロックチェーンで動作するブロックチェーンゲームの開発
+【案件規模】エンジニア４名（他国籍）＋　ゲーム企画（３名）　＋ビジネスチーム（２名）
+【担当】プロジェクト管理および開発コミュニケーション、実装
+
+【発揮したバリュー】ブロックチェーンゲームの企画段階から関わらせていただきました。すべての開発フローで関わらせていただきました。
+もともと絶対にリリースできないと思われていたスケジュールを開発ディレクション能力および実装能力で間に合わせました。
+
+
+#### 3.
+【プロジェクト概要】AI・VTuberむけ配信サービスの開発
+【案件規模】エンジニア4名（他国籍）＋　ビジネスチーム（２名）
+【担当】デザイン、要件定義・プロジェクト管理および開発コミュニケーション、実装
+
+【発揮したバリュー】開発企画からやらせていただきました。開発については他国籍のエンジニアチームであたりました。
+主にWeb3.0部分は外国籍チーム、Web2.0部分は日本人チームで対応にあたりました。類似サービスがなく要件定義が困難を極めましたが
+粘り強い仕様検討およびクライアントコミュニケーションによって、完成にこぎつけました。例のあまりないAI・VTuberモデルを動作させる
+基礎研究も、外国人エンジニアと密に協力して実行・完成させました。
+
 
 ###　公共系案件の受託開発 (2023年5月~)
 
