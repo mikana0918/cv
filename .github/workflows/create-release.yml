@@ -23,7 +23,7 @@ jobs:
         sudo apt install fonts-noto
     - name: Convert Markdown to PDF
       run: |
-        yarn add md-to-pdf
+        npm i -g md-to-pdf
         export LANG=ja_JP.UTF-8
         npx md-to-pdf README.md
         export LANG=en_US.UTF-8
